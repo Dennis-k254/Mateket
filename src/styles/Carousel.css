@@ -1,0 +1,267 @@
+/* Hero Section with Carousel */
+.hero {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: var(--color-primary-dark);
+    border-radius: 0;
+}
+
+.carousel__track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.6s ease-in-out;
+}
+
+.carousel__slide {
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 1;
+}
+
+.carousel__content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    text-align: center;
+    color: var(--color-white);
+    padding: 3rem 2rem;
+}
+
+.carousel__content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel__content .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.carousel__content .hero-desc {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.carousel__content .cta-group {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carousel__content .btn-secondary {
+    border-color: var(--color-white);
+    color: var(--color-white);
+}
+
+.carousel__content .btn-secondary:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    border-color: var(--color-white);
+}
+
+/* Carousel Controls */
+.carousel__control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: var(--color-white);
+    padding: 0.75rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 4px;
+    transition: background 0.3s;
+    display: none;
+}
+
+.carousel__control:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel__control:focus {
+    outline: 3px solid rgba(46, 125, 50, 0.25);
+    outline-offset: 2px;
+}
+
+.carousel__control.prev {
+    left: 2rem;
+}
+
+.carousel__control.next {
+    right: 2rem;
+}
+
+/* Carousel Indicators */
+.carousel__indicators {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.75rem;
+    z-index: 3;
+}
+
+.carousel__indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carousel__indicator:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.carousel__indicator:focus {
+    outline: 3px solid rgba(255, 255, 255, 0.8);
+    outline-offset: 2px;
+}
+
+.carousel__indicator.active {
+    background: var(--color-accent);
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 1024px) {
+    .carousel {
+        height: 100vh;
+    }
+
+    .carousel__content h1 {
+        font-size: 2.25rem;
+    }
+
+    .carousel__content .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .carousel__control.prev {
+        left: 1rem;
+    }
+
+    .carousel__control.next {
+        right: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 100vh;
+    }
+
+    .carousel__content {
+        padding: 2rem 1.5rem;
+    }
+
+    .carousel__content h1 {
+        font-size: 1.75rem;
+    }
+
+    .carousel__content .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .carousel__content .hero-desc {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .carousel__content .cta-group {
+        gap: 1rem;
+    }
+
+    .btn {
+        padding: 0.65rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        min-height: 300px;
+    }
+
+    .carousel__content h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .carousel__content .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .carousel__content .hero-desc {
+        font-size: 0.85rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .carousel__content .cta-group {
+        flex-direction: column;
+    }
+
+    .carousel__indicators {
+        bottom: 1rem;
+        gap: 0.5rem;
+    }
+
+    .carousel__indicator {
+        width: 12px;
+        height: 12px;
+    }
+
+    .carousel__indicator.active {
+        width: 12px;
+        height: 12px;
+    }
+
+    .carousel__control {
+        padding: 0.5rem 0.75rem;
+        font-size: 1.25rem;
+    }
+
+    .carousel__control.prev {
+        left: 1rem;
+    }
+
+    .carousel__control.next {
+        right: 1rem;
+    }
+}

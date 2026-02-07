@@ -1,0 +1,114 @@
+{
+  "siteName": "Mateket Secondary School",
+  "stats": [
+    { "number": "#1", "label": "Most Improved in District" },
+    { "number": "100%", "label": "Committed Teachers" },
+    { "number": "CBC", "label": "CBC Pathways" }
+  ],
+  "downloads": [
+    { "title": "2024 Performance Snapshot", "icon": "📄", "href": "downloads/performance-2024.pdf" },
+    { "title": "Term Dates & Calendar", "icon": "📅", "href": "downloads/term-dates.pdf" },
+    { "title": "Admissions Brochure", "icon": "📝", "href": "downloads/admissions-brochure.pdf" }
+  ],
+  "heroSlides": [
+    {
+      "title": "Growth. Faith. Excellence.",
+      "subtitle": "The most improved school in Kitale Cherengany.",
+      "description": "Building a brighter future under the Competency Based Curriculum (CBC) in a supportive Christian environment.",
+      "image": "/images/hero/aghs1.jpg",
+      "ctaPrimary": { "label": "Enquire Now", "href": "/contact" },
+      "ctaSecondary": { "label": "See Results", "href": "/performance" }
+    },
+    {
+      "title": "Academic Excellence",
+      "subtitle": "Committed, qualified teachers delivering results.",
+      "description": "Our staff focus on student growth, critical thinking and character.",
+      "image": "/images/hero/aghs2.jpg",
+      "ctaPrimary": { "label": "Admissions", "href": "/about" },
+      "ctaSecondary": { "label": "Our Programs", "href": "/performance" }
+    },
+    {
+      "title": "Community & Values",
+      "subtitle": "A nurturing Christian environment.",
+      "description": "We partner with families to develop well-rounded young people.",
+      "image": "/images/hero/aghs3.jpg",
+      "ctaPrimary": { "label": "Visit Us", "href": "/contact" },
+      "ctaSecondary": { "label": "Learn More", "href": "/about" }
+    }
+  ]
+  ,
+  "schoolInfo": {
+    "officialName": "Mateket Senior School",
+    "previousName": "Mateket Secondary School",
+    "principal": "Caroline Jeruto Suter",
+    "status": "C4 Public Mixed Senior School",
+    "description": "Mateket Senior School (formerly Mateket Secondary School) is a C4 Public Mixed school located in Trans Nzoia County, Trans Nzoia East Sub-county, Kenya. The school operates as a Day institution and runs the Competency Based Curriculum (CBC) for Grades 10-12.",
+    "location": {
+      "county": "Trans Nzoia",
+      "subCounty": "Trans Nzoia East",
+      "region": "Rift Valley"
+    },
+    "basic": {
+      "locationLabel": "TRANS NZOIA",
+      "sex": "MIXED",
+      "category": "REGULAR",
+      "cluster": "C4",
+      "accommodation": "Day",
+      "enrolment2024": 180
+    },
+    "pathways": [
+      "STEM",
+      "Social Sciences",
+      "Arts & Sports"
+    ],
+    "subjectCounts": {
+      "STEM": 9,
+      "SocialSciences": 6,
+      "ArtsSports": 5
+    },
+    "subjectCombinations": [
+      { "group": "Arts & Sports / Science / Sports", "code": "AS2009", "subjects": ["Biology","Geography","Sports & Recreation"] },
+      { "group": "Arts & Sports / Science / Sports", "code": "AS2011", "subjects": ["Biology","History & Citizenship","Sports & Recreation"] },
+      { "group": "Arts & Sports / Science / Sports", "code": "AS2014", "subjects": ["Core Mathematics","Biology","Sports & Recreation"] },
+      { "group": "Arts & Sports / Science / Sports", "code": "AS2012", "subjects": ["Biology","Literature in English","Sports & Recreation"] },
+      { "group": "Arts & Sports / Science / Sports", "code": "AS2004", "subjects": ["Biology","Christian Religious Education","Sports & Recreation"] },
+      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2019", "subjects": ["Christian Religious Education","Geography","History & Citizenship"] },
+      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2061", "subjects": ["Business Studies","Geography","Literature in English"] },
+      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2004", "subjects": ["Geography","History & Citizenship","Literature in English"] },
+      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2056", "subjects": ["Core Mathematics","Business Studies","Geography"] },
+      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2071", "subjects": ["Fasihi ya Kiswahili","Hindu Religious Education","History & Citizenship"] },
+      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2069", "subjects": ["Christian Religious Education","Fasihi ya Kiswahili","History & Citizenship"] },
+      { "group": "STEM / Applied Sciences", "code": "ST2075", "subjects": ["Agriculture","Geography","Physics"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1042", "subjects": ["Agriculture","Biology","Chemistry"] },
+      { "group": "STEM / Applied Sciences", "code": "ST2040", "subjects": ["Core Mathematics","Biology","Geography"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1016", "subjects": ["Core Mathematics","Chemistry","Geography"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1007", "subjects": ["Core Mathematics","Biology","Physics"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1033", "subjects": ["Core Mathematics","Business Studies","Physics"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1010", "subjects": ["Core Mathematics","Agriculture","Chemistry"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1004", "subjects": ["Core Mathematics","Biology","Chemistry"] },
+      { "group": "STEM / Pure Sciences", "code": "ST1030", "subjects": ["Core Mathematics","Agriculture","Physics"] }
+    ],
+    "seniorSchool": {
+      "title": "Mateket Senior School: KNEC Code, Admissions & CBC Pathways 2026",
+      "summary": "Mateket Senior School (formerly Mateket Secondary School) is a C4 Public Mixed school located in Trans Nzoia County, Trans Nzoia East Sub-county, Kenya. This Day institution is part of the Trans Nzoia education network and has transitioned to a Senior School hosting Grades 10, 11, and 12 learners under the CBC framework.",
+      "cbcFramework": "Students transition from Junior School to specialize in one of the main pathways: STEM; Social Sciences; Arts & Sports.",
+      "institutionalBackground": "The school, known historically as Mateket Secondary School, has played a vital role in Trans Nzoia's education sector. In 2024, under the management of Caroline Jeruto Suter, it grew to an enrolment of 180 students. Today, the institution maintains its status as a C4 Public senior school.",
+      "contact": {
+        "primaryPhone": "+254720963939",
+        "secondaryPhone": "+254720963939",
+        "email": "mateketss@yahoo.com"
+      },
+      "codes": {
+        "KNEC": "23528127",
+        "UIC": "QP52",
+        "serialNumber": "8772"
+      },
+      "administrative": {
+        "accommodation": "Day",
+        "sneCategory": "None",
+        "regionCounty": "Rift Valley / Trans Nzoia",
+        "subCounty": "Trans Nzoia East"
+      }
+    }
+  }
+}
