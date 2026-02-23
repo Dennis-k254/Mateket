@@ -1,4 +1,4 @@
-# Mateket Secondary — React + TypeScript School Website
+# Mateket Senior School — React + TypeScript School Website
 
 A modern, component-based school website built with React, TypeScript, and Vite. Each page is a separate, maintainable component with optimized routing.
 

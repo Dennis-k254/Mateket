@@ -19,6 +19,12 @@
     min-width: 250px;
 }
 
+.footer-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 1.5rem;
+}
+
 .footer-info h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;

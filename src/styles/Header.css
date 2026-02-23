@@ -14,14 +14,32 @@
     align-items: center;
 }
 
-.logo {
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+}
+
+.school-logo {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover .school-logo {
+    transform: scale(1.05);
+}
+
+.logo-text {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-primary);
     transition: color 0.3s ease;
 }
 
-.logo:hover {
+.logo-container:hover .logo-text {
     color: var(--color-primary-dark);
 }
 
@@ -75,8 +93,12 @@
         padding: 0 var(--spacing-unit);
     }
 
-    .logo {
+    .logo-text {
         font-size: 1.1rem;
+    }
+
+    .school-logo {
+        height: 40px;
     }
 
     .mobile-menu-toggle {
@@ -126,8 +148,12 @@
 }
 
 @media (max-width: 480px) {
-    .logo {
+    .logo-text {
         font-size: 1rem;
+    }
+
+    .school-logo {
+        height: 36px;
     }
 
     .main-nav a {

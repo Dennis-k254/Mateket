@@ -11,10 +11,11 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container">
-        <Link to="/" className="logo" onClick={closeMenu}>
-          Mateket Secondary
+        <Link to="/" className="logo-container" onClick={closeMenu}>
+          <img src="/school-logo.jpeg" alt="Mateket Senior School Logo" className="school-logo" />
+          <span className="logo-text">Mateket Senior School</span>
         </Link>
-        
+
         <button
           className="mobile-menu-toggle"
           aria-label="Toggle navigation menu"

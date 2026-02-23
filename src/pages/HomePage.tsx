@@ -28,7 +28,7 @@ export default function HomePage() {
     <>
       <SEO
         title="Growth, Faith, Excellence"
-        description="Mateket Secondary School in Kitale Cherengany is the most improved school in the district, offering CBC pathways in a nurturing Christian environment."
+        description="Mateket Senior School in Kitale Cherengany is the most improved school in the district, offering CBC pathways in a nurturing Christian environment."
       />
       <HeroCarousel slides={heroSlides} />
 

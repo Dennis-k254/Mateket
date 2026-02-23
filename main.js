@@ -1,4 +1,4 @@
-console.log('Mateket Secondary School website loaded.');
+console.log('Mateket Senior School website loaded.');
 
 document.addEventListener('DOMContentLoaded', () => {
     // Smooth scrolling for navigation links
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     loadSiteData();
-    
+
     // Carousel: render slides and start autoplay
     function renderCarousel(slides) {
         const track = document.querySelector('#heroCarousel .carousel__track');
@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             slide.style.backgroundImage = `url('${s.image}')`;
             slide.setAttribute('role', 'group');
             slide.setAttribute('aria-roledescription', 'slide');
-            slide.setAttribute('aria-label', `${i+1} of ${slides.length}`);
+            slide.setAttribute('aria-label', `${i + 1} of ${slides.length}`);
 
             slide.innerHTML = `
                 <div class="carousel__overlay"></div>
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const btn = document.createElement('button');
             btn.className = 'carousel__indicator';
-            btn.setAttribute('aria-label', `Go to slide ${i+1}`);
+            btn.setAttribute('aria-label', `Go to slide ${i + 1}`);
             btn.dataset.index = i;
             indicators.appendChild(btn);
         });

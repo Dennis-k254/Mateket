@@ -1,40 +1,78 @@
 {
-  "siteName": "Mateket Secondary School",
+  "siteName": "Mateket Senior School",
   "stats": [
-    { "number": "#1", "label": "Most Improved in District" },
-    { "number": "100%", "label": "Committed Teachers" },
-    { "number": "CBC", "label": "CBC Pathways" }
+    {
+      "number": "#1",
+      "label": "Most Improved in District"
+    },
+    {
+      "number": "100%",
+      "label": "Committed Teachers"
+    },
+    {
+      "number": "CBC",
+      "label": "CBC Pathways"
+    }
   ],
   "downloads": [
-    { "title": "2024 Performance Snapshot", "icon": "📄", "href": "downloads/performance-2024.pdf" },
-    { "title": "Term Dates & Calendar", "icon": "📅", "href": "downloads/term-dates.pdf" },
-    { "title": "Admissions Brochure", "icon": "📝", "href": "downloads/admissions-brochure.pdf" }
-  ]
-  ,
+    {
+      "title": "2024 Performance Snapshot",
+      "icon": "📄",
+      "href": "downloads/performance-2024.pdf"
+    },
+    {
+      "title": "Term Dates & Calendar",
+      "icon": "📅",
+      "href": "downloads/term-dates.pdf"
+    },
+    {
+      "title": "Admissions Brochure",
+      "icon": "📝",
+      "href": "downloads/admissions-brochure.pdf"
+    }
+  ],
   "heroSlides": [
     {
       "title": "Growth. Faith. Excellence.",
       "subtitle": "The most improved school in Kitale Cherengany.",
       "description": "Building a brighter future under the Competency Based Curriculum (CBC) in a supportive Christian environment.",
       "image": "/images/hero/aghs1.jpg",
-      "ctaPrimary": { "label": "Enquire Now", "href": "#contact" },
-      "ctaSecondary": { "label": "See Results", "href": "#performance" }
+      "ctaPrimary": {
+        "label": "Enquire Now",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "See Results",
+        "href": "#performance"
+      }
     },
     {
       "title": "Academic Excellence",
       "subtitle": "Committed, qualified teachers delivering results.",
       "description": "Our staff focus on student growth, critical thinking and character.",
       "image": "/images/hero/aghs2.jpg",
-      "ctaPrimary": { "label": "Admissions", "href": "#about" },
-      "ctaSecondary": { "label": "Our Programs", "href": "#performance" }
+      "ctaPrimary": {
+        "label": "Admissions",
+        "href": "#about"
+      },
+      "ctaSecondary": {
+        "label": "Our Programs",
+        "href": "#performance"
+      }
     },
     {
       "title": "Community & Values",
       "subtitle": "A nurturing Christian environment.",
       "description": "We partner with families to develop well-rounded young people.",
       "image": "/images/hero/aghs3.jpg",
-      "ctaPrimary": { "label": "Visit Us", "href": "#contact" },
-      "ctaSecondary": { "label": "Learn More", "href": "#about" }
+      "ctaPrimary": {
+        "label": "Visit Us",
+        "href": "#contact"
+      },
+      "ctaSecondary": {
+        "label": "Learn More",
+        "href": "#about"
+      }
     }
   ]
 }

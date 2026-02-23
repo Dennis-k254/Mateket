@@ -7,7 +7,7 @@ export default function PerformancePage() {
     <>
       <SEO
         title="School Performance"
-        description="Explore the academic achievements and measurable progress of Mateket Secondary School, the most improved school in the district."
+        description="Explore the academic achievements and measurable progress of Mateket Senior School, the most improved school in the district."
       />
       <section className="hero-alt">
         <div className="container">

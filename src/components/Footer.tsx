@@ -8,6 +8,7 @@ export default function Footer() {
     <footer className="site-footer" role="contentinfo">
       <div className="container footer-content">
         <div className="footer-info">
+          <img src={school?.logo} alt="Mateket Senior School Logo" className="footer-logo" />
           <h3>Mateket Senior School</h3>
           <address>
             {school?.location?.county}, {school?.location?.subCounty}<br />

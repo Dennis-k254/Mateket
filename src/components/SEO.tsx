@@ -9,9 +9,9 @@ interface SEOProps {
 }
 
 const SEO = ({ title, description, keywords, image, url }: SEOProps) => {
-    const siteTitle = "Mateket Secondary School";
+    const siteTitle = "Mateket Senior School";
     const fullTitle = `${title} | ${siteTitle}`;
-    const defaultDescription = "Mateket Secondary School (Mateket Senior School) in Kitale Cherengany, Kenya. A public mixed senior school offering the CBC framework with STEM, Social Sciences, and Arts & Sports pathways.";
+    const defaultDescription = "Mateket Senior School in Kitale Cherengany, Kenya. A public mixed senior school offering the CBC framework with STEM, Social Sciences, and Arts & Sports pathways.";
     const defaultUrl = "https://mateket.vercel.app/";
     const defaultImage = "/images/hero/wall hero.jpeg";
 

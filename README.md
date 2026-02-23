@@ -1,4 +1,4 @@
-# Mateket Secondary — Local Dev & Mock API
+# Mateket Senior School — Local Dev & Mock API
 
 This repository contains a small static site scaffold (Vite) and a simple Express mock API for handling enquiries.
 
