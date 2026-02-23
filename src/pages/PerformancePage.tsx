@@ -1,9 +1,14 @@
 import siteData from '../data/site.json';
+import SEO from '../components/SEO';
 import '../styles/Pages.css';
 
 export default function PerformancePage() {
   return (
     <>
+      <SEO
+        title="School Performance"
+        description="Explore the academic achievements and measurable progress of Mateket Secondary School, the most improved school in the district."
+      />
       <section className="hero-alt">
         <div className="container">
           <h1>Our Performance</h1>

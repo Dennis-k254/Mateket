@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import '../styles/Pages.css';
 import siteData from '../data/site.json';
+import SEO from '../components/SEO';
 
 const school = (siteData as any).schoolInfo;
 
@@ -50,6 +51,10 @@ export default function ContactPage() {
 
   return (
     <>
+      <SEO
+        title="Contact Us"
+        description={`Get in touch with ${school?.officialName} for admissions, fees, or general enquiries. Located in ${school?.location?.county}, ${school?.location?.subCounty}.`}
+      />
       <section className="hero-alt">
         <div className="container">
           <h1>Get In Touch</h1>

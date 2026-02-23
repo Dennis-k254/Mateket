@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import HeroCarousel from '../components/HeroCarousel';
+import SEO from '../components/SEO';
 import siteData from '../data/site.json';
 import '../styles/Pages.css';
 
@@ -20,11 +21,14 @@ export default function HomePage() {
     if (siteData.heroSlides) {
       setHeroSlides(siteData.heroSlides);
     }
-    window.scrollTo(0, 0);
   }, []);
 
   return (
     <>
+      <SEO
+        title="Growth, Faith, Excellence"
+        description="Mateket Secondary School in Kitale Cherengany is the most improved school in the district, offering CBC pathways in a nurturing Christian environment."
+      />
       <HeroCarousel slides={heroSlides} />
 
       {/* About Section */}
@@ -50,7 +54,7 @@ export default function HomePage() {
             </div>
             <div className="about-image">
               <img
-                src="https://placehold.co/600x400/1B5E20/FFFFFF?text=Mateket+Senior+School"
+                src="/images/hero/students hero.jpeg"
                 alt="Mateket students"
                 loading="lazy"
               />
@@ -105,10 +109,9 @@ export default function HomePage() {
                   <span className="icon">{dl.icon}</span> {dl.title}
                 </a>
               ))}
-            </div>
-
-            <div className="mt-2">
-              <a href="/gallery" className="download-btn">📸 View School Gallery</a>
+              <a href="/gallery" className="download-btn secondary-resource">
+                <span className="icon">📸</span> View School Gallery
+              </a>
             </div>
           </div>
         </div>

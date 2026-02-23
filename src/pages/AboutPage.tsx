@@ -1,11 +1,16 @@
 import '../styles/Pages.css';
 import siteData from '../data/site.json';
+import SEO from '../components/SEO';
 
 const school = (siteData as any).schoolInfo;
 
 export default function AboutPage() {
   return (
     <>
+      <SEO
+        title="About Our School"
+        description={`Learn about ${school?.officialName}, our history, and the CBC pathways we offer in STEM, Social Sciences, and Arts.`}
+      />
       <section className="hero-alt">
         <div className="container">
           <h1>About {school?.officialName || 'Mateket'}</h1>

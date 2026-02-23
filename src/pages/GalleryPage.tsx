@@ -1,5 +1,6 @@
 import '../styles/Pages.css';
 import siteData from '../data/site.json';
+import SEO from '../components/SEO';
 
 export default function GalleryPage() {
   const images: string[] = (siteData as any).gallery || [
@@ -11,19 +12,26 @@ export default function GalleryPage() {
 
   return (
     <>
+      <SEO
+        title="School Gallery"
+        description="View photos of our campus, students, and activities at Mateket Senior School."
+      />
       <section className="hero-alt">
         <div className="container">
           <h1>Gallery</h1>
-          <p>Photos from around Mateket Senior School. Add your images to the gallery data to update.</p>
+          <p>Photos from around Mateket Senior School</p>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
-          <div className="combinations-grid">
+          <div className="gallery-grid">
             {images.map((src, i) => (
-              <div key={i} className="combo-card">
-                <img src={src} alt={`Gallery ${i + 1}`} loading="lazy" style={{ width: '100%', borderRadius: 6 }} />
+              <div key={i} className="gallery-item">
+                <img src={src} alt={`Mateket Gallery ${i + 1}`} loading="lazy" />
+                <div className="gallery-overlay">
+                  <span>Mateket Senior School</span>
+                </div>
               </div>
             ))}
           </div>

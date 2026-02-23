@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap link (update when domain is active)
+Sitemap: https://mateket.school/sitemap.xml

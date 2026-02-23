@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import PerformancePage from './pages/PerformancePage';
@@ -10,6 +11,7 @@ import GalleryPage from './pages/GalleryPage';
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Header />
         <main id="main" tabIndex={-1}>

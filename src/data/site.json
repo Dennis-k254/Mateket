@@ -1,42 +1,102 @@
 {
   "siteName": "Mateket Secondary School",
   "stats": [
-    { "number": "#1", "label": "Most Improved in District" },
-    { "number": "100%", "label": "Committed Teachers" },
-    { "number": "CBC", "label": "CBC Pathways" }
+    {
+      "number": "#1",
+      "label": "Most Improved in District"
+    },
+    {
+      "number": "100%",
+      "label": "Committed Teachers"
+    },
+    {
+      "number": "CBC",
+      "label": "CBC Pathways"
+    }
   ],
   "downloads": [
-    { "title": "2024 Performance Snapshot", "icon": "📄", "href": "downloads/performance-2024.pdf" },
-    { "title": "Term Dates & Calendar", "icon": "📅", "href": "downloads/term-dates.pdf" },
-    { "title": "Admissions Brochure", "icon": "📝", "href": "downloads/admissions-brochure.pdf" }
+    {
+      "title": "Term Dates & Calendar",
+      "icon": "📅",
+      "href": "downloads/term-dates.pdf"
+    }
   ],
   "heroSlides": [
     {
       "title": "Growth. Faith. Excellence.",
       "subtitle": "The most improved school in Kitale Cherengany.",
       "description": "Building a brighter future under the Competency Based Curriculum (CBC) in a supportive Christian environment.",
-      "image": "/images/hero/aghs1.jpg",
-      "ctaPrimary": { "label": "Enquire Now", "href": "/contact" },
-      "ctaSecondary": { "label": "See Results", "href": "/performance" }
+      "image": "/images/hero/wall hero.jpeg",
+      "ctaPrimary": {
+        "label": "Enquire Now",
+        "href": "/contact"
+      },
+      "ctaSecondary": {
+        "label": "See Results",
+        "href": "/performance"
+      }
     },
     {
       "title": "Academic Excellence",
       "subtitle": "Committed, qualified teachers delivering results.",
       "description": "Our staff focus on student growth, critical thinking and character.",
-      "image": "/images/hero/aghs2.jpg",
-      "ctaPrimary": { "label": "Admissions", "href": "/about" },
-      "ctaSecondary": { "label": "Our Programs", "href": "/performance" }
+      "image": "/images/hero/graduation hero.jpeg",
+      "ctaPrimary": {
+        "label": "Admissions",
+        "href": "/about"
+      },
+      "ctaSecondary": {
+        "label": "Our Programs",
+        "href": "/performance"
+      }
     },
     {
       "title": "Community & Values",
       "subtitle": "A nurturing Christian environment.",
       "description": "We partner with families to develop well-rounded young people.",
-      "image": "/images/hero/aghs3.jpg",
-      "ctaPrimary": { "label": "Visit Us", "href": "/contact" },
-      "ctaSecondary": { "label": "Learn More", "href": "/about" }
+      "image": "/images/hero/assembly hero.jpeg",
+      "ctaPrimary": {
+        "label": "Visit Us",
+        "href": "/contact"
+      },
+      "ctaSecondary": {
+        "label": "Learn More",
+        "href": "/about"
+      }
     }
-  ]
-  ,
+  ],
+  "gallery": [
+    "/images/images/WhatsApp Image 2026-02-19 at 9.49.16 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.49.20 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.49.30 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.49.59 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.06 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.14 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.29 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.31 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.38 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.39 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.41 PM (1).jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.41 PM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.42 PM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.42 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.44 PM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-19 at 9.50.45 PM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.33 AM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.34 AM (1).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.34 AM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.34 AM (3).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.34 AM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.35 AM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.35 AM.jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.36 AM (1).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.36 AM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.36 AM (3).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.37 AM (1).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.37 AM (2).jpeg",
+    "/images/images/WhatsApp Image 2026-02-21 at 8.15.37 AM.jpeg",
+    "/images/images/teachers trip 2 hero.jpeg"
+  ],
   "schoolInfo": {
     "officialName": "Mateket Senior School",
     "previousName": "Mateket Secondary School",
@@ -67,26 +127,186 @@
       "ArtsSports": 5
     },
     "subjectCombinations": [
-      { "group": "Arts & Sports / Science / Sports", "code": "AS2009", "subjects": ["Biology","Geography","Sports & Recreation"] },
-      { "group": "Arts & Sports / Science / Sports", "code": "AS2011", "subjects": ["Biology","History & Citizenship","Sports & Recreation"] },
-      { "group": "Arts & Sports / Science / Sports", "code": "AS2014", "subjects": ["Core Mathematics","Biology","Sports & Recreation"] },
-      { "group": "Arts & Sports / Science / Sports", "code": "AS2012", "subjects": ["Biology","Literature in English","Sports & Recreation"] },
-      { "group": "Arts & Sports / Science / Sports", "code": "AS2004", "subjects": ["Biology","Christian Religious Education","Sports & Recreation"] },
-      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2019", "subjects": ["Christian Religious Education","Geography","History & Citizenship"] },
-      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2061", "subjects": ["Business Studies","Geography","Literature in English"] },
-      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2004", "subjects": ["Geography","History & Citizenship","Literature in English"] },
-      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2056", "subjects": ["Core Mathematics","Business Studies","Geography"] },
-      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2071", "subjects": ["Fasihi ya Kiswahili","Hindu Religious Education","History & Citizenship"] },
-      { "group": "Social Sciences / Humanities & Business Studies", "code": "SS2069", "subjects": ["Christian Religious Education","Fasihi ya Kiswahili","History & Citizenship"] },
-      { "group": "STEM / Applied Sciences", "code": "ST2075", "subjects": ["Agriculture","Geography","Physics"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1042", "subjects": ["Agriculture","Biology","Chemistry"] },
-      { "group": "STEM / Applied Sciences", "code": "ST2040", "subjects": ["Core Mathematics","Biology","Geography"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1016", "subjects": ["Core Mathematics","Chemistry","Geography"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1007", "subjects": ["Core Mathematics","Biology","Physics"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1033", "subjects": ["Core Mathematics","Business Studies","Physics"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1010", "subjects": ["Core Mathematics","Agriculture","Chemistry"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1004", "subjects": ["Core Mathematics","Biology","Chemistry"] },
-      { "group": "STEM / Pure Sciences", "code": "ST1030", "subjects": ["Core Mathematics","Agriculture","Physics"] }
+      {
+        "group": "Arts & Sports / Science / Sports",
+        "code": "AS2009",
+        "subjects": [
+          "Biology",
+          "Geography",
+          "Sports & Recreation"
+        ]
+      },
+      {
+        "group": "Arts & Sports / Science / Sports",
+        "code": "AS2011",
+        "subjects": [
+          "Biology",
+          "History & Citizenship",
+          "Sports & Recreation"
+        ]
+      },
+      {
+        "group": "Arts & Sports / Science / Sports",
+        "code": "AS2014",
+        "subjects": [
+          "Core Mathematics",
+          "Biology",
+          "Sports & Recreation"
+        ]
+      },
+      {
+        "group": "Arts & Sports / Science / Sports",
+        "code": "AS2012",
+        "subjects": [
+          "Biology",
+          "Literature in English",
+          "Sports & Recreation"
+        ]
+      },
+      {
+        "group": "Arts & Sports / Science / Sports",
+        "code": "AS2004",
+        "subjects": [
+          "Biology",
+          "Christian Religious Education",
+          "Sports & Recreation"
+        ]
+      },
+      {
+        "group": "Social Sciences / Humanities & Business Studies",
+        "code": "SS2019",
+        "subjects": [
+          "Christian Religious Education",
+          "Geography",
+          "History & Citizenship"
+        ]
+      },
+      {
+        "group": "Social Sciences / Humanities & Business Studies",
+        "code": "SS2061",
+        "subjects": [
+          "Business Studies",
+          "Geography",
+          "Literature in English"
+        ]
+      },
+      {
+        "group": "Social Sciences / Humanities & Business Studies",
+        "code": "SS2004",
+        "subjects": [
+          "Geography",
+          "History & Citizenship",
+          "Literature in English"
+        ]
+      },
+      {
+        "group": "Social Sciences / Humanities & Business Studies",
+        "code": "SS2056",
+        "subjects": [
+          "Core Mathematics",
+          "Business Studies",
+          "Geography"
+        ]
+      },
+      {
+        "group": "Social Sciences / Humanities & Business Studies",
+        "code": "SS2071",
+        "subjects": [
+          "Fasihi ya Kiswahili",
+          "Hindu Religious Education",
+          "History & Citizenship"
+        ]
+      },
+      {
+        "group": "Social Sciences / Humanities & Business Studies",
+        "code": "SS2069",
+        "subjects": [
+          "Christian Religious Education",
+          "Fasihi ya Kiswahili",
+          "History & Citizenship"
+        ]
+      },
+      {
+        "group": "STEM / Applied Sciences",
+        "code": "ST2075",
+        "subjects": [
+          "Agriculture",
+          "Geography",
+          "Physics"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1042",
+        "subjects": [
+          "Agriculture",
+          "Biology",
+          "Chemistry"
+        ]
+      },
+      {
+        "group": "STEM / Applied Sciences",
+        "code": "ST2040",
+        "subjects": [
+          "Core Mathematics",
+          "Biology",
+          "Geography"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1016",
+        "subjects": [
+          "Core Mathematics",
+          "Chemistry",
+          "Geography"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1007",
+        "subjects": [
+          "Core Mathematics",
+          "Biology",
+          "Physics"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1033",
+        "subjects": [
+          "Core Mathematics",
+          "Business Studies",
+          "Physics"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1010",
+        "subjects": [
+          "Core Mathematics",
+          "Agriculture",
+          "Chemistry"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1004",
+        "subjects": [
+          "Core Mathematics",
+          "Biology",
+          "Chemistry"
+        ]
+      },
+      {
+        "group": "STEM / Pure Sciences",
+        "code": "ST1030",
+        "subjects": [
+          "Core Mathematics",
+          "Agriculture",
+          "Physics"
+        ]
+      }
     ],
     "seniorSchool": {
       "title": "Mateket Senior School: KNEC Code, Admissions & CBC Pathways 2026",
