@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Carousel.css';
 
 interface Slide {
@@ -85,12 +86,12 @@ export default function HeroCarousel({ slides }: HeroCarouselProps) {
                 <p className="hero-subtitle">{slide.subtitle}</p>
                 <p className="hero-desc">{slide.description}</p>
                 <div className="cta-group">
-                  <a href={slide.ctaPrimary.href} className="btn btn-primary">
+                  <Link to={slide.ctaPrimary.href} className="btn btn-primary">
                     {slide.ctaPrimary.label}
-                  </a>
-                  <a href={slide.ctaSecondary.href} className="btn btn-secondary">
+                  </Link>
+                  <Link to={slide.ctaSecondary.href} className="btn btn-secondary">
                     {slide.ctaSecondary.label}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </section>

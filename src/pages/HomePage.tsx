@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import HeroCarousel from '../components/HeroCarousel';
 import SEO from '../components/SEO';
 import siteData from '../data/site.json';
@@ -109,9 +110,9 @@ export default function HomePage() {
                   <span className="icon">{dl.icon}</span> {dl.title}
                 </a>
               ))}
-              <a href="/gallery" className="download-btn secondary-resource">
+              <Link to="/gallery" className="download-btn secondary-resource">
                 <span className="icon">📸</span> View School Gallery
-              </a>
+              </Link>
             </div>
           </div>
         </div>
